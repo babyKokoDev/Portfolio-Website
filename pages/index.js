@@ -8,10 +8,8 @@ export default function Home() {
    <Head>
     <title>Elijah Aremu</title>
    </Head>
-   <main>
     <Navbar />
     <Main />
-   </main>
    </>
   )
 }

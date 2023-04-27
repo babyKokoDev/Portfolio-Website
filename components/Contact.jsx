@@ -4,15 +4,17 @@ import Image from "next/image";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import Link from "next/link";
 
 const Contact = () => {
   return (
     <div className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
-        <p className="text-xl tracking-widest uppercase text-[#5651e5]">
+        <p className="text-xl tracking-widest uppercase text-[#5651e5] text-center font-semibold">
           Contact
         </p>
-        <h2 className="py-4">Get In Touch</h2>
+        <h2 className="py-4 text-center">Get In Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
           <div className="col-span-3 lg:col-span-2 w-full shadow-xl shadow-gray-400 rounded-xl p-4">
@@ -82,7 +84,13 @@ const Contact = () => {
                    </form>
                 </div>
             </div>
-
+        </div>
+        <div className="flex justify-center py-12">
+            <Link href="/">
+             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <HiOutlineChevronDoubleUp size={30} className="m-auto text-[#5651e5]" />
+             </div>
+            </Link>
         </div>
       </div>
     </div>

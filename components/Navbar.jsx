@@ -56,7 +56,9 @@ const Navbar = () => {
             <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] py-5 px-3 ease-in duration-500' : 'fixed left-[-100%] top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] py-5 px-3 ease-in duration-500'}>
              <div>
                 <div className='flex w-full items-center justify-between'>
+                  <Link href='/'>
                     <Image src="/../public/assets/logo.png" alt='/' width={87} height={45} />
+                  </Link>
                     <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 cursor-pointer p-2'>
                           <AiOutlineClose className='text-purple-600' />
                     </div>
@@ -70,16 +72,16 @@ const Navbar = () => {
                     <Link href='/'>
                       <li className='py-4 text-sm'>Home</li>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/#about'>
                       <li className='py-4 text-sm'>About</li>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/#skills'>
                       <li className='py-4 text-sm'>Skills</li>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/#projects'>
                       <li className='py-4 text-sm'>Projects</li>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/#contact'>
                       <li className='py-4 text-sm'>Contact</li>
                     </Link>
                 </ul>

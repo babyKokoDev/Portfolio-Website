@@ -12,7 +12,6 @@ export default function Home() {
    <Head>
     <title>Elijah Aremu</title>
    </Head>
-    <Navbar />
     <Main />
     <About />
     <Skills />

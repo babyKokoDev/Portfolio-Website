@@ -1,6 +1,6 @@
 import React from 'react'
 import {AiOutlineMenu, AiOutlineClose, AiOutlineMail} from 'react-icons/ai'
-import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
+import {FaLinkedinIn, FaGithub, FaTwitter} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Link from 'next/link'
 
@@ -29,9 +29,11 @@ const Main = () => {
                         <AiOutlineMail />
                     </div>
                 </Link>
+                <Link href='https://twitter.com/Adebay0nle'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
+                        <FaTwitter />
                     </div>
+                </Link>
                </div>
             </div>
         </div>

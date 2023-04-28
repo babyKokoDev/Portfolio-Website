@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react';
 import {AiOutlineMenu, AiOutlineClose, AiOutlineMail} from 'react-icons/ai'
-import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
+import {FaLinkedinIn, FaGithub, FaTwitter} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import { useRouter } from 'next/router';
 
@@ -129,9 +129,11 @@ const Navbar = () => {
                         <AiOutlineMail />
                     </div>
                   </Link>
+                  <Link href='https://twitter.com/Adebay0nle'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
+                        <FaTwitter />
                     </div>
+                  </Link>
                 </div>
              </div>
             </div>

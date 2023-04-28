@@ -2,7 +2,7 @@ import React from "react";
 import contact from "../public/assets/contact.jpg";
 import Image from "next/image";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
@@ -37,18 +37,26 @@ const Contact = () => {
             <div>
               <p className="uppercase">CONNECT WITH ME</p>
               <div className="flex items-center justify-between py-4">
+                <Link href='https://www.linkedin.com/in/elijah-aremu-445806151/'>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                   <FaLinkedinIn />
                 </div>
+                </Link>
+                <Link href='https://github.com/babyKokoDev'>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                   <FaGithub />
                 </div>
+                </Link>
+                <Link href='mailto:aremuelija@gmail.com'>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                   <AiOutlineMail />
                 </div>
+                </Link>
+                <Link href='https://twitter.com/Adebay0nle'>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-                  <BsFillPersonLinesFill />
+                  <FaTwitter />
                 </div>
+                </Link>
               </div>
             </div>
             </div>

@@ -6,7 +6,7 @@ import {RiRadioButtonFill} from 'react-icons/ri'
 const Dashboard = () => {
   return (
     <div className='w-full'>
-    <div className='w-screen h-[50vh] lg-[50vh] relative'>
+    <div className='w-full h-[50vh] lg-[50vh] relative'>
        <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/[0.88] z-10'>
           <Image src={dash} className='absolute z-1 w-full h-full mix-blend-overlay'  />    
           <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>

@@ -19,7 +19,7 @@ const Dashboard = () => {
           <div className='col-span-4'>
               <p className='text-center text-xl text-[#5651e5] font-semibold'>Projects</p>
               <h2 className='text-center'>Overview</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque magni sequi expedita nihil ratione voluptate rem iste esse architecto, nostrum vitae beatae ut impedit amet animi incidunt ex cumque fugiat voluptatibus repellendus nemo veritatis totam ipsum cupiditate? Commodi quam officiis fuga ducimus a, veniam atque et vero eos debitis quo, optio nemo modi eaque laborum! Porro iusto officia, quaerat dolores commodi illum sapiente necessitatibus dolorum, doloribus recusandae voluptates temporibus exercitationem!</p>
+              <p className='tracking-widest mt-3'>This Admin dashboard page was built to be a user-friendly and efficient platform designed to help administrators manage their operations and make informed decisions based on data insights. The dashboard incorporates a range of features and tools to help administrators monitor key metrics and track progress towards their goals. The dashboard displays data and analytics on a range of metrics, such as revenues, user engagement, and orders. This could help administrators to identify trends and patterns, and make data-driven decisions to optimize their operations and performance. To enhance security and privacy, I made use of NextJS for authentication purposes. Overall, the admin dashboard page was built to be a powerful tool for administrators to monitor their operations and make data-driven decisions. It would provide a user-friendly, efficient, and innovative platform that caters to the evolving needs of today's businesses and organizations.</p>
               <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
               <button className='px-8 py-2 mt-4'>Code</button>
           </div>
@@ -31,6 +31,7 @@ const Dashboard = () => {
                   <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1 mr-2' /> Tailwind CSS</p>
                   <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1 mr-2' /> Next Auth</p>
                   <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1 mr-2' /> API</p>
+                  <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1 mr-2' /> ChartJs</p>
                 </div>
              </div>
           </div>

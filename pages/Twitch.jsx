@@ -19,7 +19,7 @@ const Twitch = () => {
           <div className='col-span-4'>
               <p className='text-center text-xl text-[#5651e5] font-semibold'>Projects</p>
               <h2 className='text-center'>Overview</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque magni sequi expedita nihil ratione voluptate rem iste esse architecto, nostrum vitae beatae ut impedit amet animi incidunt ex cumque fugiat voluptatibus repellendus nemo veritatis totam ipsum cupiditate? Commodi quam officiis fuga ducimus a, veniam atque et vero eos debitis quo, optio nemo modi eaque laborum! Porro iusto officia, quaerat dolores commodi illum sapiente necessitatibus dolorum, doloribus recusandae voluptates temporibus exercitationem!</p>
+              <p className='tracking-widest mt-3'>This twitch gaming application was built using Next Js and tailwind css. It was built in such a way that any user that wants to access it must sign up. I implemented Next Auth for sign up by providing two authentication providers which are Google and Github. Subsequently, I might add other providers like Facebook and Twitter. I embedded a youtube video to the application and created a lot of dummy API's for user data</p>
               <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
               <button className='px-8 py-2 mt-4'>Code</button>
           </div>

@@ -15,13 +15,13 @@ const Bank = () => {
             </div>
          </div>
       </div>
-      <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
+      <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8 mb-10'>
             <div className='col-span-4'>
                 <p className='text-center text-xl text-[#5651e5] font-semibold'>Projects</p>
                 <h2 className='text-center'>Overview</h2>
                 <p className='tracking-widest mt-3'>This bank application was built to be user-friendly and intuitive, allowing customers to access a variety of banking services easily. These services include the ability to open and manage accounts, transfer funds, pay bills, add cards, exchange currency and add saving goals. For every transaction made, a receipt is generated that will allow the user to download and print the transaction details. I made it possible for two or more users to tranfer money to one another if created within the same local storage. I implemented local storage to store users information. The settings section is also there where a user can update or change his original information. I made use of currency exchange API for fetching the current rates of currency pairs.</p>
-                <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-                <button className='px-8 py-2 mt-4'>Code</button>
+                <a href="https://elijah-bank-app.netlify.app/" target='blank'><button className='px-8 py-2 mt-4 mr-8'>Demo</button></a>
+                <a href="https://github.com/babyKokoDev/Fintech-Bank-Application" target='blank'><button className='px-8 py-2 mt-4'>Code</button></a>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
                <div className='p-2'>

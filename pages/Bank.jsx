@@ -19,7 +19,7 @@ const Bank = () => {
             <div className='col-span-4'>
                 <p className='text-center text-xl text-[#5651e5] font-semibold'>Projects</p>
                 <h2 className='text-center'>Overview</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque magni sequi expedita nihil ratione voluptate rem iste esse architecto, nostrum vitae beatae ut impedit amet animi incidunt ex cumque fugiat voluptatibus repellendus nemo veritatis totam ipsum cupiditate? Commodi quam officiis fuga ducimus a, veniam atque et vero eos debitis quo, optio nemo modi eaque laborum! Porro iusto officia, quaerat dolores commodi illum sapiente necessitatibus dolorum, doloribus recusandae voluptates temporibus exercitationem!</p>
+                <p>This bank application was built to be user-friendly and intuitive, allowing customers to access a variety of banking services easily. These services include the ability to open and manage accounts, transfer funds, pay bills, add cards, exchange currency and add saving goals. For every transaction made, a receipt is generated that will allow the user to download and print the transaction details. I made it possible for two or more users to tranfer money to one another if created within the same local storage. I implemented local storage to store users information. The settings section is also there where a user can update or change his original information. I made use of currency exchange API for fetching the current rates of currency pairs.</p>
                 <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
                 <button className='px-8 py-2 mt-4'>Code</button>
             </div>

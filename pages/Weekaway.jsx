@@ -20,8 +20,8 @@ const Weekaway = () => {
               <p className='text-center text-xl text-[#5651e5] font-semibold'>Projects</p>
               <h2 className='text-center'>Overview</h2>
               <p className='tracking-widest mt-3'>This vacation booking website was built to  be a comprehensive and user-friendly platform designed to help users plan and book their vacations. The website incorporates a range of features and tools to help users find the perfect destination, book their travel, and plan their itinerary. Subsequently, the vacation booking website will be built to offer users a range of search filters and criteria, such as destination, travel dates, budget, and accommodation type, allowing users to easily find the best vacation options based on their preferences and needs. The website will also offer reviews and ratings from other users, providing valuable insights and recommendations to help users make informed decisions. Overall, the vacation booking website was built to be a powerful tool for anyone looking to plan and book their next vacation by providing a simple, efficient, and innovative platform that caters to the evolving needs of today's travelers.</p>
-              <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-              <button className='px-8 py-2 mt-4'>Code</button>
+              <a href="https://vacation-booking-website-with-react-js.vercel.app/" target='blank'><button className='px-8 py-2 mt-4 mr-8'>Demo</button></a>
+                <a href="https://github.com/babyKokoDev/Vacation-Booking-Website-with-React-Js" target='blank'><button className='px-8 py-2 mt-4'>Code</button></a>
           </div>
           <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
              <div className='p-2'>

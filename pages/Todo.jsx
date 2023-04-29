@@ -20,8 +20,8 @@ const Todo = () => {
               <p className='text-center text-xl text-[#5651e5] font-semibold'>Projects</p>
               <h2 className='text-center'>Overview</h2>
               <p className='tracking-widest mt-3'>This todo application was built to be a simple and intuitive platform designed to help users manage their tasks and prioritize their work. The application incorporates a range of features and tools to help users organize and track their tasks, ensuring that they stay on top of their work and meet their deadlines. The todo application offers users the ability to create, edit, and delete tasks, as well as set priorities for each task making it easier to manage multiple tasks at once. Overall, this todo application was built to be a powerful tool for anyone looking to manage their tasks and prioritize their work. It provides a simple, efficient, and innovative platform that caters to the evolving needs of today's busy professionals and students.</p>
-              <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-              <button className='px-8 py-2 mt-4'>Code</button>
+              <a href="https://to-do-list-app-with-react-js.vercel.app/" target='blank'><button className='px-8 py-2 mt-4 mr-8'>Demo</button></a>
+                <a href="https://github.com/babyKokoDev/To-do-list-app-with-React-Js" target='blank'><button className='px-8 py-2 mt-4'>Code</button></a>
           </div>
           <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
              <div className='p-2'>

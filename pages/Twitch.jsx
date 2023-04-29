@@ -20,8 +20,8 @@ const Twitch = () => {
               <p className='text-center text-xl text-[#5651e5] font-semibold'>Projects</p>
               <h2 className='text-center'>Overview</h2>
               <p className='tracking-widest mt-3'>This twitch gaming application was built using Next Js and tailwind css. It was built in such a way that any user that wants to access it must sign up. I implemented Next Auth for sign up by providing two authentication providers which are Google and Github. Subsequently, I might add other providers like Facebook and Twitter. I embedded a youtube video to the application and created a lot of dummy API's for user data</p>
-              <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-              <button className='px-8 py-2 mt-4'>Code</button>
+              <a href="https://twitch-gaming-website.vercel.app/" target='blank'><button className='px-8 py-2 mt-4 mr-8'>Demo</button></a>
+                <a href="https://github.com/babyKokoDev/Twitch-Gaming-Website" target='blank'><button className='px-8 py-2 mt-4'>Code</button></a>
           </div>
           <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
              <div className='p-2'>

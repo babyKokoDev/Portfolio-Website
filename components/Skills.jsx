@@ -163,6 +163,17 @@ const Skills = () => {
                </div>
             </div>
 
+            <div className='p-2 sm:p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+               <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                 <div className='m-auto'>
+                     <Image src='/../public/assets/skills/figma.png' width={80} height={64}  alt='/' />
+                 </div>
+                 <div className='flex flex-col items-center justify-center'>
+                    <h3>FIGMA</h3>
+                 </div>
+               </div>
+            </div>
+
             
 
            </div>

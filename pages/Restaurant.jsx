@@ -20,7 +20,7 @@ const Restaurant = () => {
                 <p className='text-center text-xl text-[#5651e5] font-semibold'>Projects</p>
                 <h2 className='text-center'>Overview</h2>
                 <p className='tracking-widest mt-3'>This is typically an African food delivery application built to be a user-friendly and efficient platform designed to provide customers with a seamless and convenient food delivery experience. The application allows customers to browse menus, place orders, and make payments online using paystack, all from the comfort of their homes or workplaces. Overall, this food delivery application was built to be a powerful tool for enhancing the food delivery experience for customers and optimizing delivery operations for food delivery companies. It provides a user-friendly, efficient, and innovative platform that caters to the evolving needs of today's customers.</p>
-                <a href="https://eli-restaurant-app.netlify.app/" target='blank'><button className='px-8 py-2 mt-4 mr-8'>Demo</button></a>
+                <a href="https://food-delivery-website-two.vercel.app/" target='blank'><button className='px-8 py-2 mt-4 mr-8'>Demo</button></a>
                 <a href="https://github.com/babyKokoDev/Food-Delivery-Website" target='blank'><button className='px-8 py-2 mt-4'>Code</button></a>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>

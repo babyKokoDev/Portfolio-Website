@@ -6,8 +6,10 @@ import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2'
 
 const Contact = () => {
+  
 
   // Email Form
   const form = useRef();
@@ -21,6 +23,13 @@ const Contact = () => {
       }, (error) => {
         console.log(error.text);
       });
+
+      Swal.fire(
+        'Thanks for reaching out😍😍',
+        'Click the button below to exit',
+        'success'
+      )
+      document.getElementById("create-course-form").reset();
     }
 
 
@@ -81,7 +90,7 @@ const Contact = () => {
 
             <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
               <div className="p-4">
-                <form ref={form} onSubmit={sendEmail}>
+                <form ref={form} onSubmit={sendEmail} id="create-course-form">
                   <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                     <div className="flex flex-col">
                       <label className="uppercase text-sm py-2">Name</label>

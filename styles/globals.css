@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,400;1,600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,7 +8,9 @@ html {
   scroll-behavior: smooth !important;
 }
 
-
+body{
+  font-family: 'Karla', sans-serif;
+}
 
 @layer base {
   body {

@@ -10,8 +10,8 @@ const Twitch = () => {
        <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/[0.88] z-10'>
           <Image src={twitch} className='absolute z-1 w-full h-full mix-blend-overlay'  />    
           <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-              <h2 className='mb-2 text-gray-400'>Twitch Gaming Application</h2>
-              <h3 className='text-gray-400'>Next JS / Tailwind CSS</h3>
+              <h2 className='mb-2 text-pink-600'>Twitch Gaming Application</h2>
+              <h3 className='text-purple-600'>Next JS / Tailwind CSS</h3>
           </div>
        </div>
     </div>

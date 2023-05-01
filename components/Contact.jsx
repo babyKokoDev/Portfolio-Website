@@ -1,14 +1,15 @@
-import React from "react";
+import React, { useRef } from "react";
 import contact from "../public/assets/contact.jpg";
 import Image from "next/image";
-import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
+import {  AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
 
 const Contact = () => {
-  console.log(process.env)
+   console.log(process.env.PUBLIC_KEY)
+   console.log(process.env.SERVICE_KEY)
+   console.log(process.env.TEMPLATE_KEY)
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">

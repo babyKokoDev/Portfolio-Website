@@ -6,6 +6,7 @@ import {FaLinkedinIn, FaGithub, FaTwitter} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import { useRouter } from 'next/router';
 import logoImg from '../public/assets/logo.png'
+// import { Link, animateScroll as scroll } from 'react-scroll'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -13,6 +14,7 @@ const Navbar = () => {
   const [navBg, setNavBg] = useState('#ecf0f3')
   const [linkColor, setLinkColor] = useState('#1f2937')
   const router = useRouter()
+  
 
   useEffect(()=>{
      if (
@@ -23,13 +25,20 @@ const Navbar = () => {
         router.asPath === '/Twitch' ||
         router.asPath === '/Weekaway'
      ) {
-           setNavBg('transparent')
+           setNavBg('#ecf0f3')
            setLinkColor('#ecf0f3')
+
      }else {
       setNavBg('#ecf0f3')
       setLinkColor('#1f2937')
      }
   }, [router])
+
+//  const handleScroll = () => {
+     
+//  }
+
+//   window.addEventListener('scroll', handleScroll)
 
 
   const handleNav = () => {

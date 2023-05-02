@@ -82,7 +82,7 @@ const Navbar = () => {
                 </Link>
             </ul>
             <div onClick={handleNav} className='md:hidden cursor-pointer'>
-                <AiOutlineMenu size={25} className='text-purple-600'/>
+                <AiOutlineMenu size={30} className='text-purple-600'/>
             </div>
            </div>
          </div>

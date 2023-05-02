@@ -7,7 +7,7 @@ const Bank = () => {
   return (
     <div className='w-full'>
       <div className='w-full h-[50vh] lg-[50vh] relative'>
-         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/60 z-10'>
+         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10'>
             <Image src={fintech} className='absolute z-1 w-full h-full mix-blend-overlay'  />    
             <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
                 <h2 className='mb-2 text-pink-600'>Fintech Bank Application</h2>
@@ -16,7 +16,7 @@ const Bank = () => {
          </div>
       </div>
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8 mb-10'>
-            <div className='col-span-4'>
+            <div className='col-span-4 text-center sm:text-justify px-2'>
                 <p className='text-center text-xl text-[#5651e5] font-semibold'>Projects</p>
                 <h2 className='text-center'>Overview</h2>
                 <p className='tracking-widest mt-3'>This bank application was built to be user-friendly and intuitive, allowing customers to access a variety of banking services easily. These services include the ability to open and manage accounts, transfer funds, pay bills, add cards, exchange currency and add saving goals. For every transaction made, a receipt is generated that will allow the user to download and print the transaction details. I made it possible for two or more users to tranfer money to one another if created within the same local storage. I implemented local storage to store users information. The settings section is also there where a user can update or change his original information. I made use of currency exchange API for fetching the current rates of currency pairs.</p>

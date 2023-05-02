@@ -16,7 +16,7 @@ const Todo = () => {
        </div>
     </div>
     <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8 mb-10'>
-          <div className='col-span-4'>
+          <div className='col-span-4 text-center sm:text-justify px-2'>
               <p className='text-center text-xl text-[#5651e5] font-semibold'>Projects</p>
               <h2 className='text-center'>Overview</h2>
               <p className='tracking-widest mt-3'>This todo application was built to be a simple and intuitive platform designed to help users manage their tasks and prioritize their work. The application incorporates a range of features and tools to help users organize and track their tasks, ensuring that they stay on top of their work and meet their deadlines. The todo application offers users the ability to create, edit, and delete tasks, as well as set priorities for each task making it easier to manage multiple tasks at once. Overall, this todo application was built to be a powerful tool for anyone looking to manage their tasks and prioritize their work. It provides a simple, efficient, and innovative platform that caters to the evolving needs of today's busy professionals and students.</p>

@@ -16,7 +16,7 @@ const Restaurant = () => {
          </div>
       </div>
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8 mb-10'>
-            <div className='col-span-4'>
+            <div className='col-span-4 text-center sm:text-justify px-2'>
                 <p className='text-center text-xl text-[#5651e5] font-semibold'>Projects</p>
                 <h2 className='text-center'>Overview</h2>
                 <p className='tracking-widest mt-3'>This is typically an African food delivery application built to be a user-friendly and efficient platform designed to provide customers with a seamless and convenient food delivery experience. The application allows customers to browse menus, place orders, and make payments online using paystack, all from the comfort of their homes or workplaces. Overall, this food delivery application was built to be a powerful tool for enhancing the food delivery experience for customers and optimizing delivery operations for food delivery companies. It provides a user-friendly, efficient, and innovative platform that caters to the evolving needs of today's customers.</p>

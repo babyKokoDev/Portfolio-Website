@@ -16,7 +16,7 @@ const Weekaway = () => {
        </div>
     </div>
     <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8 mb-10'>
-          <div className='col-span-4'>
+          <div className='col-span-4 text-center sm:text-justify px-2'>
               <p className='text-center text-xl text-[#5651e5] font-semibold'>Projects</p>
               <h2 className='text-center'>Overview</h2>
               <p className='tracking-widest mt-3'>This vacation booking website was built to  be a comprehensive and user-friendly platform designed to help users plan and book their vacations. The website incorporates a range of features and tools to help users find the perfect destination, book their travel, and plan their itinerary. Subsequently, the vacation booking website will be built to offer users a range of search filters and criteria, such as destination, travel dates, budget, and accommodation type, allowing users to easily find the best vacation options based on their preferences and needs. The website will also offer reviews and ratings from other users, providing valuable insights and recommendations to help users make informed decisions. Overall, the vacation booking website was built to be a powerful tool for anyone looking to plan and book their next vacation by providing a simple, efficient, and innovative platform that caters to the evolving needs of today's travelers.</p>

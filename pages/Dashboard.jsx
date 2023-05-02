@@ -16,7 +16,7 @@ const Dashboard = () => {
        </div>
     </div>
     <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8 mb-10'>
-          <div className='col-span-4'>
+          <div className='col-span-4 text-center sm:text-justify px-2'>
               <p className='text-center text-xl text-[#5651e5] font-semibold'>Projects</p>
               <h2 className='text-center'>Overview</h2>
               <p className='tracking-widest mt-3'>This Admin dashboard page was built to be a user-friendly and efficient platform designed to help administrators manage their operations and make informed decisions based on data insights. The dashboard incorporates a range of features and tools to help administrators monitor key metrics and track progress towards their goals. The dashboard displays data and analytics on a range of metrics, such as revenues, user engagement, and orders. This could help administrators to identify trends and patterns, and make data-driven decisions to optimize their operations and performance. To enhance security and privacy, I made use of NextJS for authentication purposes. Overall, the admin dashboard page was built to be a powerful tool for administrators to monitor their operations and make data-driven decisions. It would provide a user-friendly, efficient, and innovative platform that caters to the evolving needs of today's businesses and organizations.</p>

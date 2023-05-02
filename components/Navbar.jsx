@@ -26,7 +26,7 @@ const Navbar = () => {
         router.asPath === '/Weekaway'
      ) {
            setNavBg('#ecf0f3')
-           setLinkColor('#ecf0f3')
+           setLinkColor('#1f2937')
 
      }else {
       setNavBg('#ecf0f3')

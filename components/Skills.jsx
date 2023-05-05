@@ -15,6 +15,7 @@ import nodelogo from '../public/assets/skills/node.png'
 import reactlogo from '../public/assets/skills/react.png'
 import sasslogo from '../public/assets/skills/sass.png'
 import tailwindlogo from '../public/assets/skills/tailwind.png'
+import typescriptlogo from '../public/assets/skills/typescript.png'
 
 const Skills = () => {
   return (
@@ -156,6 +157,17 @@ const Skills = () => {
                </div>
             </div>
 
+            <div className='p-2 sm:p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+               <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                 <div className='m-auto'>
+                     <Image src={typescriptlogo} width={64} height={64}  alt='/' />
+                 </div>
+                 <div className='flex flex-col items-center justify-center'>
+                    <h3>TYPESCRIPT</h3>
+                 </div>
+               </div>
+            </div>
+
             {/* <div className='p-2 sm:p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                  <div className='m-auto'>
@@ -181,7 +193,7 @@ const Skills = () => {
             <div className='p-2 sm:p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                  <div className='m-auto'>
-                     <Image src={figmalogo} width={100} height={64}  alt='/' />
+                     <Image src={figmalogo} width={64} height={64}  alt='/' />
                  </div>
                  <div className='flex flex-col items-center justify-center'>
                     <h3>FIGMA</h3>
